@@ -1,0 +1,17 @@
+.portfolio { 
+    margin: 0 -1rem 2.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    &__col {
+        flex-basis: 33.3333%;
+        padding: 1rem;
+
+        @media (max-width: 767px) {
+            flex-basis: 50%;
+        }
+
+        @media (max-width: 565px) {
+            flex-basis: 100%;
+        }
+    }
+}

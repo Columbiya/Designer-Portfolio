@@ -1,0 +1,49 @@
+@import '_variables';
+
+
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: $black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* blocks */
+@import 'blocks/_container';
+@import 'blocks/_header.scss';
+@import 'blocks/_user';
+@import 'blocks/_nav';
+@import 'blocks/_intro';
+@import 'blocks/_social';
+@import 'blocks/_btn';
+@import 'blocks/works';
+@import 'blocks/_portfolio';
+@import 'blocks/_work';
+@import 'blocks/_about';
+@import 'blocks/_reviews';
+@import 'blocks/_readMe';
+@import 'blocks/footer';
+@import 'blocks/burger';
+
+
+/* Helpers */
+@import 'helpers';

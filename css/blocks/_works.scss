@@ -1,0 +1,22 @@
+.works {
+    margin: 2.8rem 0;
+    &__nav {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.4rem;
+        a {
+            font-size: 0.8rem;
+            font-weight: 400;
+            color: rgba($black, 0.7);
+            text-decoration: none;
+
+            &:not(:first-child) {
+                margin-left: 2rem;
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
